@@ -1,0 +1,248 @@
+@import url(http://fonts.googleapis.com/css?family=Headland+One);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+* {
+  background-color: #efecca; }
+
+body {
+  font-family: "Nunito", cursive;
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #046380; }
+
+.name #first {
+  padding-left: 1px;
+  font-size: 23px;
+  letter-spacing: 5px;
+  color: #046380; }
+  .name #first:hover {
+    color: #002f2f; }
+.name #last {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #002f2f; }
+
+.avataricon {
+  background: url("http://gravatar.com/avatar/ca062712ea52ebcfe2f1ee362aa9dc55.png") no-repeat scroll 13px 13px #efecca;
+  float: margin-center;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #ccc;
+  opacity: .8;
+  height: 75px;
+  width: 75px; }
+  .avataricon:hover {
+    opacity: 1;
+    background-color: #e6e2af; }
+
+#topnav {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  display: block;
+  height: 25px;
+  font-family: "Headland One", cursive; }
+  #topnav i {
+    color: #a7a37e;
+    padding: 0 4px;
+    border: 0;
+    font-size: 20px;
+    float: margin-center; }
+    #topnav i:hover {
+      color: #046380; }
+  #topnav .icon-text {
+    font-size: 23px;
+    letter-spacing: 5px;
+    color: #046380; }
+  #topnav a {
+    text-decoration: none; }
+
+#sidebar {
+  position: fixed;
+  top: 50px;
+  left: 15px;
+  width: 120px;
+  font-family: "Headland One", cursive; }
+  #sidebar a {
+    text-decoration: none; }
+  #sidebar .name {
+    margin: 10px 0 20px 0; }
+  #sidebar i {
+    color: #a7a37e;
+    padding: 0 4px;
+    border: 0;
+    font-size: 20px;
+    float: margin-center; }
+    #sidebar i:hover {
+      color: #046380; }
+  #sidebar .icon-text {
+    font-size: 12px;
+    color: #046380;
+    padding-left: 2px;
+    letter-spacing: 1px; }
+  #sidebar .section-text {
+    padding-top: 10px;
+    font-size: 10px;
+    color: #046380;
+    padding-left: 2px;
+    letter-spacing: 1px; }
+  #sidebar .sections {
+    margin: 10px 0 0 -15px; }
+    #sidebar .sections a {
+      background-color: #046380;
+      padding: 3px 5px;
+      color: #e6e2af;
+      font-weight: bold;
+      font-size: 12px; }
+      #sidebar .sections a:hover {
+        color: #a7a37e;
+        padding: 3px 25px; }
+    #sidebar .sections ul {
+      margin: 0;
+      padding: 0; }
+    #sidebar .sections li {
+      list-style: none;
+      margin-bottom: 7px; }
+
+.content {
+  padding-top: 65px;
+  margin-left: 150px;
+  width: 650px;
+  margin-bottom: 50px; }
+  .content h1 {
+    color: #333;
+    font-family: "Headland One", cursive;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc; }
+  .content h1 a {
+    color: #111;
+    text-decoration: none; }
+  .content h2 {
+    color: #333;
+    font-family: "Headland One", cursive;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc; }
+  .content h2 a {
+    color: #111;
+    text-decoration: none; }
+  .content h3 {
+    color: #333;
+    font-family: "Headland One", cursive;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc; }
+  .content h3 a {
+    color: #111;
+    text-decoration: none; }
+  .content h4 {
+    color: #333;
+    font-family: "Headland One", cursive;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc; }
+  .content h4 a {
+    color: #111;
+    text-decoration: none; }
+  .content h1 {
+    font-size: 36px;
+    margin: 18px 0 5px 0; }
+  .content h2 {
+    font-size: 30px;
+    margin-bottom: 15px; }
+  .content h3 {
+    color: #777;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+  .content p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    line-height: 1.7em; }
+    .content p code {
+      font-size: 12px;
+      background-color: #e6e2af;
+      border: 1px solid #a7a37e;
+      border-radius: 3px;
+      padding: 2px 3px; }
+  .content img {
+    padding: 3px;
+    border: 1px solid #046380;
+    max-width: 100%; }
+  .content li {
+    margin-bottom: 10px;
+    line-height: 1.4em; }
+  .content blockquote {
+    font-style: italic;
+    font-size: 14px;
+    padding: .25em 1em;
+    margin: 1em 1em 0 1em;
+    color: #444; }
+    .content blockquote cite:before {
+      content: '— '; }
+    .content blockquote cite {
+      display: block;
+      margin-top: .5em;
+      text-align: right;
+      color: #111;
+      font-style: normal; }
+  .content .byline {
+    margin-bottom: 17px;
+    font-family: "Headland One", cursive;
+    padding-left: 0px;
+    font-size: 17px;
+    color: #777; }
+  .content .aside {
+    background-color: #046380;
+    padding: 14px;
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+    line-height: 1.6em; }
+  .content .listing {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: "Nunito", cursive; }
+    .content .listing ul {
+      margin: 0;
+      padding: 0; }
+    .content .listing li {
+      font-size: 13px;
+      list-style: none;
+      padding: 5px 3px;
+      margin: 0;
+      color: #a7a37e;
+      border-bottom: 2px solid #e6e2af; }
+    .content .listing li span {
+      float: right; }
+    .content .listing a {
+      text-decoration: none; }
+      .content .listing a:hover {
+        color: #002f2f;
+        text-decoration: underline; }
+  .content .meta {
+    margin: 30px 0;
+    padding: 10px 0;
+    font-family: "Nunito", cursive; }
+    .content .meta p {
+      line-height: 1.4;
+      font-size: 14px;
+      margin-top: 0px; }
+    .content .meta .avataricon {
+      position: relative;
+      float: left;
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-left: -80px;
+      border-radius: 4px; }
+    .content .meta .copy {
+      padding-left: 85px; }
+  .content .talk-design .color div {
+    float: left;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    font-family: "Nunito", cursive;
+    font-size: 12px;
+    font-weight: bold; }
+  .content .talk-design .color .white {
+    color: #efecca; }
