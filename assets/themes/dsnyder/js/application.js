@@ -26,7 +26,7 @@
       return $('.icon-text').html("Devin");
     });
 
-    $('#about').mouseover(function() {
+/*    $('#about').mouseover(function() {
       return $('.section-text').text("Dee Snider?");
     });
 
@@ -40,6 +40,6 @@
 
     $('#projects').mouseout(function() {
       return $('.section-text').html("&nbsp;");
-    });
+    });*/
   });
 }).call(this);
